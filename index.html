@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>WORKSHOP #HTML-FORM</h1>
+    <h1>List</h1>
+    <ul>
+        <li>A</li>
+        <li>B</li>
+        <li>C</li>
+    </ul>
+    <ol>
+        <li>A</li>
+        <li>B</li>
+        <li>C</li>
+    </ol>
+    <ol type="I">
+        <li>A</li>
+        <li>B</li>
+        <li>C</li>
+    </ol>
+    <ol type="a">
+        <li>A</li>
+        <li>B</li>
+        <li>C</li>
+    </ol>
+    <bl>
+        <dt>Group A</dt>
+        <dd>B</dd>
+        <dt>Group C</dt>
+    </bl>
+    <img width="64px" src="https://i.guim.co.uk/img/media/327e46c3ab049358fad80575146be9e0e65686e7/0_56_1023_614/master/1023.jpg?width=620&dpr=1&s=none" alt="">
+    <table border="1">
+        <thead>
+            <tr>
+                <td>#</td>
+                <td>Name</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>A</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>B</td>
+            </tr>
+            <tr>
+                <td colspan="2">3</td>
+                <td>C</td>
+            </tr>
+
+            <tr>
+                <td rowspan="2">4</td>
+                <td>D</td>
+            </tr>
+            <tr>
+                <td>E</td>
+            </tr>
+
+        </tbody>
+    </table>
+    <h1>FORM</h1>
+    <form action="#">
+        <table>
+            <tr>
+                <td>input text</td>
+                <td>
+                    <input type="text">
+                </td>
+            </tr>
+            <tr>
+                <td>input date</td>
+                <td>
+                    <input type="date">
+                </td>
+            </tr>
+            <tr>
+                <td>input date time</td>
+                <td>
+                    <input type="datetime-local">
+                </td>
+            </tr>
+            <tr>
+                <td>input radio</td>
+                <td>
+                    <input id="radio_a" type="radio" name="same_radio">
+                    <label for="radio_a">A</label>
+                    <input id="radio_b" type="radio" name="same_radio">
+                    <label for="radio_b">B</label>
+                </td>
+            </tr>
+            <tr>
+                <td>input checkpop</td>
+                <td>
+                    <input type="checkbox" name="my_checkbox">A <br>
+                    <input type="checkbox" name="my_checkbox">B
+                </td>
+            </tr>
+            <tr>
+                <td>input text area</td>
+                <td>
+                    <textarea cols="15" rows="5" placeholder="ใส่ด้วยนะจ๊ะ"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>input select</td>
+                <td>
+                    <select>
+                        <option disabled>-</option>
+                        <option selected>A</option>
+                        <option selected>B</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>File</td>
+                <td>
+                    <input type="file" >
+                </td>
+            </tr>
+            <tr>
+                <td>button</td>
+                <td>
+                    <input type="button" value="button">
+                    <input type="reset" value="reset">
+                    <input type="submit" value="submit"> <br>
+                    <button>button</button>
+                    <button  type="reset">reset</button>
+                    <button  type="submit">submit</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
