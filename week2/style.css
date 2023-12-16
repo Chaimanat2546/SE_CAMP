@@ -1,0 +1,36 @@
+body{
+    margin:0;
+    padding:0;
+    font-family:sans-serif;
+    background:#000;
+    overflow:hidden;
+    background-image: url("https://i.ytimg.com/vi/quC5H_nPLD0/maxresdefault.jpg");
+    background-size: 100%;
+}
+h2{
+    margin-top: 50px;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+.box{
+    width: 95%;
+    position: relative;
+      max-width: 800px;
+      top: 130px;
+      margin:auto;
+      background: #fff;
+      box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+      padding: 25px;
+      border-radius: 1010px;
+      height: 400px;
+    text-align: center;
+    font-size: 80px;
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/620/260/896/apocalyptic-metropolis-fantasy-art-fantastic-art-wallpaper-preview.jpg");
+}
+.box:hover{
+    background-size: 100%;
+    background-image:url("https://i.pinimg.com/originals/86/9d/75/869d754deede0135ca30fe6eddcf8ca8.png");
+    color: #ffffff;
+    transition: all .3s;
+}
