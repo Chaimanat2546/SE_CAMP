@@ -1,0 +1,8 @@
+<h1>spl_autoload_call</h1>
+<h1><?php echo $val_a . ' ' . $val_b; ?></h1>
+<h1>{{$val_a}} {{$val_b}}</h1>
+<form method="post" action="/my-controller3-post">
+    @csrf
+    <input type="text" name="myinput">
+    <button type="submit">Submit</button>
+</form>
